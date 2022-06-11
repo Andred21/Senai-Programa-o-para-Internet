@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [UC4 - Lógica de Programação]
+// Professor   : Richard Brosler 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/05/2022
+Var
+// Seção de Declarações das variáveis 
+numero : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreval("Escreva um número inteiro:")
+   leia(numero)
+   se numero %2 = 0 entao
+   escreval("Esse é um número par!")
+   senao
+   escreval("Esse é um número ímpar!")
+   fimse
+
+Fimalgoritmo
