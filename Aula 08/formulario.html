@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<style>
+    div {
+        padding: 5px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Exemplo de uso de um formulário</h1>
+    </header>
+    <section id="cadastro">
+        <h2>Início do formulário</h2>
+        <form action="#">
+            <!--Nome da pessoa-->
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome" minleght="5" maxlength="30" required>
+            </div>
+            <!--Endereço da pessoa-->
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" required>
+            </div>
+            <!--Data de nascimento-->
+            <div>
+                <label for="dtnasc">Data de nascimento:</label>
+                <input type="date" name="dtnasc" id="dtnasc">
+            </div>
+            <!--Senha do Cartão de crédito-->
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+            <!--Idade-->
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" required>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+
+</html>
