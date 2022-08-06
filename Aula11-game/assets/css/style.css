@@ -5,6 +5,7 @@
     border: 1px solid black;
     margin: 0 auto;
     overflow: hidden;
+    background: linear-gradient(blue,white);
 }
 #pipe{
     position: absolute;
@@ -20,7 +21,13 @@
     height: 110px;
     animation: mario-jump 0.9s infinite;
 }
-
+#nuvem{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+    animation: nuvem-voando 10s infinite linear;
+}
 @keyframes pipe-anime {
     from {
         right: -80px;
@@ -42,5 +49,13 @@
     }
     100% {
         bottom: 0;
+    }
+}
+@keyframes nuvem-voando{
+    from{
+        right: -280px
+}
+to {
+    right: 100%;
     }
 }
