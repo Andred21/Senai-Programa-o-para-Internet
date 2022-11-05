@@ -89,5 +89,4 @@ function fat($vlr)
   for($i=$vlr;$i>1;$i--)
     $ret *= $i;
 
-    return $ret;
-}
+    
